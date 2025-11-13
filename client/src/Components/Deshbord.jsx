@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../css/dashboard.css";
+import "../css/Dashboard.css";
 import axios from "axios";
 const Deshbord = () => {
   const [student, setStudent] = useState(0);
