@@ -7,7 +7,7 @@ const Deshbord = () => {
   const [admin, setAdmin] = useState(0);
   useEffect(() => {
     axios
-      .get("http://localhost:4000/deshboard")
+      .get("https://bookstore-1-tnqb.onrender.com/deshboard")
       .then((res) => {
         if (res.data.ok) {
           setAdmin(res.data.admin);
