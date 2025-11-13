@@ -19,7 +19,7 @@ const AddBooks = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://bookstoreclient-2.onrender.com/book/addbook", {
+      .post("https://bookstore-1-tnqb.onrender.com/book/addbook", {
         name,
         aouthor,
         image,
