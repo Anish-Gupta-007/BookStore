@@ -6,7 +6,7 @@ const LogOut = ({ setRolee }) => {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get("http://localhost:4000/auth/logout")
+      .get("https://bookstore-1-tnqb.onrender.com/auth/logout")
       .then((res) => {
         if (res.data.logout) {
           setRolee("");
