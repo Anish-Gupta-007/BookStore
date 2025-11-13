@@ -7,7 +7,7 @@ const Books = ({ role }) => {
   const [book, setBook] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:4000/book/books")
+      .get("https://bookstore-1-tnqb.onrender.com/book/books")
       .then((res) => {
         setBook(res.data);
         console.log(res.data);
