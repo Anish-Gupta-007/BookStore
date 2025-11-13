@@ -8,7 +8,7 @@ const DeleteBook = () => {
 
   useEffect(() => {
     axios
-      .delete("http://localhost:4000/book/delete/" + id)
+      .delete("https://bookstore-1-tnqb.onrender.com/book/delete/" + id)
       .then((res) => {
         if (res.data.deleted) {
           navigate("/books");
