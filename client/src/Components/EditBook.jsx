@@ -11,7 +11,7 @@ const EditBook = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/book/updates/" + id)
+      .get("https://bookstore-1-tnqb.onrender.com/book/updates/" + id)
       .then((res) => {
         setname(res.data.name);
         setAouthor(res.data.aouthor);
