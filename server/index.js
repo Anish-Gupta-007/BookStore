@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://bookstore-1-tnqb.onrender.com",
+    origin: "https://bookstoreclient-2.onrender.com",
     credentials: true,
   })
 );
