@@ -12,7 +12,7 @@ const AddStudent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:4000/student/register", {
+      .post("https://bookstoreclient-2.onrender.com/student/register", {
         userName,
         password,
         roll,
